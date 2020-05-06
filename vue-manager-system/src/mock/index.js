@@ -8,4 +8,4 @@ Mock.setup({
 
 // 首页相关
 // 拦截的是/home/getData
-Mock.mock(/\/home\/getData/, 'get', HomeApi.getHomeData)
+Mock.mock(/\/home\/getData/, 'get', HomeApi.getStatisticalData)
